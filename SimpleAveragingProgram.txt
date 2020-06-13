@@ -1,0 +1,16 @@
+public class AveragingProgram {
+
+	public static void main(String[] args) {
+		int num[]= {4,5,6,7,8,9,10};
+		System.out.println(average(num));
+	}
+
+	public static int average(int... numbers) { // i don't know how many numbers i will have
+		int total = 0;
+		for (int x : numbers) {
+           total+=x;
+		}
+		return total/numbers.length;
+	}
+
+}
