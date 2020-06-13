@@ -9,5 +9,11 @@ public class RandomNumberGenerator {
 			rand= 1+ r.nextInt(6);    //choose random number between 1 to 6, so we have dice
 			System.out.println(rand);
 		}
+//I've made another loop
+                
+                 for(int i=1; i<=10; i++) {
+			rand= 1+ r.nextInt(7);    
+			System.out.println(rand);
+		}
 	}
 }
